@@ -1,4 +1,4 @@
-# LMSOC - Code for LMSOC
+# LMSOC: An Approach for Socially Sensitive Pretraining
 
 [![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/twitter-research/lmsoc) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twitter-research/lmsoc/HEAD)
 
