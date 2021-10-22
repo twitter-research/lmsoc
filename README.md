@@ -5,11 +5,17 @@
 
 ![image](lmsoc.png)
 
+Code for reproducing the paper **[LMSOC: An Approach for Socially Sensitive Pretraining](https://arxiv.org/abs/2110.10319)** to appear at [2021 Conference on Empirical Methods in Natural Language Processing: Findings](https://2021.emnlp.org/papers). 
+
+## Abstract
+
+> While large-scale pretrained language models have been shown to learn effective linguistic representations for many NLP tasks, there remain many real-world contextual aspects of language that current approaches do not capture. For instance, consider a cloze-test "I enjoyed the ____ game this weekend": the correct answer depends heavily on where the speaker is from, when the utterance occurred, and the speaker's broader social milieu and preferences. Although language depends heavily on the geographical, temporal, and other social contexts of the speaker, these elements have not been incorporated into modern transformer-based language models. We propose a simple but effective approach to incorporate speaker social context into the learned representations of large-scale language models. Our method first learns dense representations of social contexts using graph representation learning algorithms and then primes language model pretraining with these social context representations. We evaluate our approach on geographically-sensitive language-modeling tasks and show a substantial improvement (more than 100% relative lift on MRR) compared to baselines.
+
 ## Citation
 
 Please cite as:
 
-> Kulkarni, V., Mishra, S., & Haghighi, A. (2021). LMSOC: An Approach for Socially Sensitive Pretraining. Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: Findings.
+> Kulkarni, V., Mishra, S., & Haghighi, A. (2021). LMSOC: An Approach for Socially Sensitive Pretraining. Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: Findings. [arXiv](https://arxiv.org/abs/2110.10319)
 
 
 ```bibtex
@@ -18,6 +24,12 @@ Please cite as:
   author={Kulkarni, Vivek and Mishra, Shubhanshu and Haghighi, Aria},
   booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: Findings},
   year={2021}
+  address={Online},
+  publisher={Association for Computational Linguistics},
+  pages={1--9},
+  eprint={2110.10319},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL}
 }
 ```
 

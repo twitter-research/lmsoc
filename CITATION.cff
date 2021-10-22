@@ -1,0 +1,28 @@
+cff-version: "1.2.0"
+date-released: 2020-10
+message: "If you use this software, please cite it using these metadata."
+title: "LMSOC: An Approach for Socially Sensitive Pretraining"
+url: "https://github.com/twitter-research/lmsoc"
+authors:
+  - family-names: Kulkarni
+    given-names: Vivek
+  - family-names: Mishra
+    given-names: Shubhanshu
+  - family-names: Haghighi
+    given-names: Aria
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: Kulkarni
+    given-names: Vivek  
+  - family-names: Mishra
+    given-names: Shubhanshu
+  - family-names: Haghighi
+    given-names: Aria
+  booktitle: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: Findings"
+  month: 11
+  title: "LMSOC: An Approach for Socially Sensitive Pretraining"
+  year: 2021
+  publisher: "Association for Computational Linguistics"
+  url: "https://arxiv.org/abs/2110.10319"
+  address: "Online"
